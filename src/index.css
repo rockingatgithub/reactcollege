@@ -1,9 +1,203 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+#outerdiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.collegeitem {
+  width: 47%;
+  position: relative;
+  padding: 7px;
+  border: 1px solid;
+  height: 351px;
+}
+
+.overlay {
+  position: absolute;
+  padding: 0;
+  display: inline-block;
+  background: black;
+  height: 233px;
+  width: 637px;
+}
+
+.collegeimage {
+  position: absolute;
+  height: 233px;
+  width: 637px;
+  opacity: 0.4;
+}
+
+.rating-box {
+  z-index: 10;
+  position: absolute;
+  background-color: #f5a626;
+  color: white;
+  height: 53px;
+  width: 75px;
+  border-radius: 5px;
+  left: 560px;
+}
+
+.givenrating {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.coverup {
+  margin: 4px;
+  padding: 0px;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.tagbox {
+  z-index: 10;
+  position: absolute;
+  color: black;
+  top: 192px;
+  left: 15px;
+}
+
+.tags-0 {
+  display: inline-block;
+  width: 135px;
+  height: 34px;
+  font-size: 13px;
+  background: white;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.tags-1 {
+  display: inline-block;
+  width: 93px;
+  height: 34px;
+  font-size: 13px;
+  background: white;
+  border-radius: 16px;
+  text-align: center;
+  margin-left: 12px;
+}
+
+.tagstext-0 {
+  top: 6px;
+  position: absolute;
+  left: 16px;
+}
+
+.tagstext-1 {
+  top: 6px;
+  position: absolute;
+  left: 162px;
+}
+
+.ranking {
+  z-index: 10;
+  position: absolute;
+  top: 195px;
+  left: 425px;
+  color: white;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.collegename {
+  position: absolute;
+  top: 250px;
+  z-index: 10;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.originalprice {
+  position: absolute;
+  z-index: 10;
+  top: 250px;
+  left: 566px;
+  text-decoration: line-through;
+  text-decoration-color: lightgray;
+  color: lightgray;
+}
+
+.nearplace {
+  position: absolute;
+  z-index: 10;
+  top: 282px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.nearplace-0 {
+  display: inline-block;
+  position: absolute;
+  width: 230px;
+}
+
+.nearplace-1 {
+  display: inline-block;
+  position: absolute;
+  width: 174px;
+  left: 232px;
+  color: #adadad;
+}
+
+.disc_fees {
+  position: absolute;
+  z-index: 10;
+  top: 274px;
+  left: 566px;
+  font-size: 27px;
+}
+
+.disc_fees {
+  position: absolute;
+  z-index: 10;
+  top: 270px;
+  left: 566px;
+  font-size: 27px;
+  color: #dd1c26;
+  font-weight: 600;
+}
+
+.fee-cycle {
+  position: absolute;
+  z-index: 10;
+  top: 300px;
+  left: 505px;
+  font-size: 11px;
+  color: #444;
+}
+
+.famous-place {
+  position: absolute;
+  z-index: 10;
+  top: 309px;
+  font-size: 13px;
+}
+
+.matchtext {
+  color: #37b396;
+  font-size: 14px;
+  position: absolute;
+  font-weight: 600;
+  width: 80px;
+}
+
+.matchtextnames {
+  position: absolute;
+  width: 290px;
+  left: 80px;
+}

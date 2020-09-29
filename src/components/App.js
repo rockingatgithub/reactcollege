@@ -14,32 +14,32 @@ class App extends Component {
 
   componentDidMount = () => {
     this.loadData();
+    this.addListener();
     console.log("mounted");
   };
 
-  componentDidUpdate = () => {
-    // this.addListener();
-    console.log("updated");
+  listenerFunction = () => {
+    let self = this;
+    let scrollHeight = document.body.clientHeight;
+    let scrollPosition = window.innerHeight + window.scrollY;
+    if ((scrollHeight - 20 >= scrollPosition) / scrollHeight === 0) {
+      self.loadData();
+    }
   };
 
   addListener = () => {
-    let self = this;
-    window.addEventListener("scroll", function () {
-      let scrollHeight = document.body.clientHeight;
-      let scrollPosition = window.innerHeight + window.scrollY;
-      if ((scrollHeight - 20 >= scrollPosition) / scrollHeight === 0) {
-        self.loadData();
-      }
-    });
+    window.addEventListener("scroll", this.listenerFunction);
   };
 
   loadData = () => {
     const { firstindex, lastindex } = this.state;
     if (firstindex === data.colleges.length) {
+      console.log("list over");
+      window.removeEventListener("scroll", this.listenerFunction);
       return;
     }
 
-    let colleges = data.colleges.slice(firstindex, lastindex);
+    let colleges = data.colleges.slice(0, lastindex);
     console.log(colleges);
     this.setState((prevState) => ({
       collegeList: colleges,
@@ -54,9 +54,11 @@ class App extends Component {
     const { collegeList } = this.state;
     return (
       <div>
-        {collegeList.map((college, ind) => (
-          <College college={college} key={ind} />
-        ))}
+        <div id="outerdiv">
+          {collegeList.map((college, ind) => (
+            <College college={college} key={ind} imgind={ind} />
+          ))}
+        </div>
       </div>
     );
   }
