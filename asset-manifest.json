@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/reactcollege/static/css/main.32ca000c.chunk.css",
-    "main.js": "/reactcollege/static/js/main.f2c39874.chunk.js",
-    "main.js.map": "/reactcollege/static/js/main.f2c39874.chunk.js.map",
+    "main.js": "/reactcollege/static/js/main.e44e3af4.chunk.js",
+    "main.js.map": "/reactcollege/static/js/main.e44e3af4.chunk.js.map",
     "runtime-main.js": "/reactcollege/static/js/runtime-main.9b41c5cb.js",
     "runtime-main.js.map": "/reactcollege/static/js/runtime-main.9b41c5cb.js.map",
     "static/js/2.04af431d.chunk.js": "/reactcollege/static/js/2.04af431d.chunk.js",
     "static/js/2.04af431d.chunk.js.map": "/reactcollege/static/js/2.04af431d.chunk.js.map",
     "index.html": "/reactcollege/index.html",
-    "precache-manifest.2346e75671e12e4d1c8017c33531fc94.js": "/reactcollege/precache-manifest.2346e75671e12e4d1c8017c33531fc94.js",
+    "precache-manifest.27bbc2e713343e122633770f377ad8fc.js": "/reactcollege/precache-manifest.27bbc2e713343e122633770f377ad8fc.js",
     "service-worker.js": "/reactcollege/service-worker.js",
     "static/css/main.32ca000c.chunk.css.map": "/reactcollege/static/css/main.32ca000c.chunk.css.map",
     "static/js/2.04af431d.chunk.js.LICENSE.txt": "/reactcollege/static/js/2.04af431d.chunk.js.LICENSE.txt",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.9b41c5cb.js",
     "static/js/2.04af431d.chunk.js",
     "static/css/main.32ca000c.chunk.css",
-    "static/js/main.f2c39874.chunk.js"
+    "static/js/main.e44e3af4.chunk.js"
   ]
 }
