@@ -54,6 +54,7 @@ class App extends Component {
     const { collegeList } = this.state;
     return (
       <div>
+        <span className="main-heading">Colleges in North India</span>
         <div id="outerdiv">
           {collegeList.map((college, ind) => (
             <College college={college} key={ind} imgind={ind} />
