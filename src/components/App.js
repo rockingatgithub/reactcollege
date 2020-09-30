@@ -1,3 +1,4 @@
+// ================================================the main app component==================================================
 import React, { Component } from "react";
 import College from "./College";
 import data from "./data/colleges.json";
@@ -18,6 +19,8 @@ class App extends Component {
     console.log("mounted");
   };
 
+  // =========================================event listener on scroll for infinite scrolling=====================================
+
   listenerFunction = () => {
     let self = this;
     let scrollHeight = document.body.clientHeight;
@@ -31,6 +34,8 @@ class App extends Component {
     window.addEventListener("scroll", this.listenerFunction);
   };
 
+  // =====================================function to load college data=====================================================
+
   loadData = () => {
     const { firstindex, lastindex } = this.state;
     if (firstindex === data.colleges.length) {
@@ -40,7 +45,7 @@ class App extends Component {
     }
 
     let colleges = data.colleges.slice(0, lastindex);
-    // console.log(colleges);
+
     this.setState((prevState) => ({
       collegeList: colleges,
       firstindex: prevState.lastindex,

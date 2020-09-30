@@ -1,3 +1,5 @@
+// ==================================================the college card component=================================
+
 import React from "react";
 import img1 from "./college_01.jpg";
 import img2 from "./college_02.jpg";
