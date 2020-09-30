@@ -40,7 +40,7 @@ class App extends Component {
     }
 
     let colleges = data.colleges.slice(0, lastindex);
-    console.log(colleges);
+    // console.log(colleges);
     this.setState((prevState) => ({
       collegeList: colleges,
       firstindex: prevState.lastindex,

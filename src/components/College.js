@@ -53,8 +53,9 @@ function College(props) {
           <span className="matchtextnames">
             <span className="matchsubtext">2.5kms</span>
             {college.famous_nearest_places}
-            <span className="matchsubtext">7 Kms</span>
-            {college.famous_nearest_places_2}
+            <span className="matchsubtext-1">
+              7 Kms {` ${college.famous_nearest_places_2}`}
+            </span>
           </span>
         </div>
 

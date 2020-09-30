@@ -448,3 +448,118 @@ body {
     top: 352px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .collegeimage {
+    /* width: 400px; */
+    width: 306px;
+  }
+  .overlay {
+    /* width: 400px; */
+    width: 306px;
+  }
+  .promoted {
+    /* left: 255px; */
+    left: 161px;
+  }
+  .rating-box {
+    /* left: 323px; */
+    left: 233px;
+  }
+  .ranking {
+    /* left: 194px; */
+    left: 14px;
+  }
+  .secondbox {
+    /* height: 436px; */
+    /* width: 399px; */
+    height: 447px;
+    width: 305px;
+  }
+  .collegerating {
+    /* left: 333px; */
+    left: 14px;
+  }
+  .originalprice {
+    /* top: 278px; */
+    top: 288px;
+  }
+  .disctag {
+    /* top: 282px; */
+    top: 293px;
+  }
+  .disc_fees {
+    /* top: 298px; */
+    top: 306px;
+  }
+  .fee-cycle {
+    /* top: 329px; */
+    top: 337px;
+  }
+  .famous-place {
+    /* top: 379px; */
+    top: 393px;
+  }
+  .offertext {
+    /* left: 14px; */
+    left: 8px;
+  }
+  .offertext {
+    /* top: 409px; */
+    top: 419px;
+  }
+  .nearplace {
+    /* top: 352px; */
+    top: 372px;
+  }
+  .amentybox {
+    /* left: 233px; */
+    left: 14px;
+  }
+  .amentybox {
+    /* top: 309px; */
+    top: 351px;
+  }
+
+  .collegerating {
+    /* top: 257px; */
+    top: 275px;
+  }
+  .offertext {
+    /* width: 347px; */
+    /* font-size: 13px; */
+    width: 305px;
+    font-size: 12px;
+  }
+  .famous-place {
+    /* top: 393px; */
+    top: 409px;
+  }
+  .offertext {
+    /* top: 419px; */
+    top: 438px;
+  }
+  .secondbox {
+    /* height: 447px; */
+    height: 465px;
+  }
+  .nearplace-1 {
+    /* left: 224px; */
+    left: 0px;
+    top: 14px;
+    z-index: 10;
+  }
+  .offertext {
+    /* top: 438px; */
+    top: 453px;
+  }
+  .secondbox {
+    /* height: 465px; */
+    height: 487px;
+  }
+  .matchsubtext-1 {
+    top: 16px;
+    position: absolute;
+    left: -79px;
+  }
+}
