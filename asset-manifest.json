@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/reactcollege/static/css/main.1c521d3a.chunk.css",
+    "main.js": "/reactcollege/static/js/main.b7722b2a.chunk.js",
+    "main.js.map": "/reactcollege/static/js/main.b7722b2a.chunk.js.map",
+    "runtime-main.js": "/reactcollege/static/js/runtime-main.9b41c5cb.js",
+    "runtime-main.js.map": "/reactcollege/static/js/runtime-main.9b41c5cb.js.map",
+    "static/js/2.04af431d.chunk.js": "/reactcollege/static/js/2.04af431d.chunk.js",
+    "static/js/2.04af431d.chunk.js.map": "/reactcollege/static/js/2.04af431d.chunk.js.map",
+    "index.html": "/reactcollege/index.html",
+    "precache-manifest.ab41806e0850cb6d19668240253da590.js": "/reactcollege/precache-manifest.ab41806e0850cb6d19668240253da590.js",
+    "service-worker.js": "/reactcollege/service-worker.js",
+    "static/css/main.1c521d3a.chunk.css.map": "/reactcollege/static/css/main.1c521d3a.chunk.css.map",
+    "static/js/2.04af431d.chunk.js.LICENSE.txt": "/reactcollege/static/js/2.04af431d.chunk.js.LICENSE.txt",
+    "static/media/college_01.jpg": "/reactcollege/static/media/college_01.8793ec0e.jpg",
+    "static/media/college_02.jpg": "/reactcollege/static/media/college_02.619ee97e.jpg",
+    "static/media/disccount.svg": "/reactcollege/static/media/disccount.43ead0b4.svg",
+    "static/media/promotedtext.svg": "/reactcollege/static/media/promotedtext.82d43860.svg",
+    "static/media/ratingstars.PNG": "/reactcollege/static/media/ratingstars.b81fbf78.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9b41c5cb.js",
+    "static/js/2.04af431d.chunk.js",
+    "static/css/main.1c521d3a.chunk.css",
+    "static/js/main.b7722b2a.chunk.js"
+  ]
+}
