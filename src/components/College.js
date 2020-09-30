@@ -3,7 +3,7 @@
 import React from "react";
 import img1 from "./college_01.jpg";
 import img2 from "./college_02.jpg";
-import promotedtext from "./promotedtext.svg";
+import promotedtext from "./promotedtext.png";
 import disccount from "./disccount.svg";
 import ratingstars from "./ratingstars.PNG";
 
